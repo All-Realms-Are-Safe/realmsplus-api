@@ -1,0 +1,12 @@
+# dev
+test/
+examples/
+docs/
+.git/
+.gitignore
+
+# misc
+.vscode/
+.idea/
+*.log
+.DS_Store

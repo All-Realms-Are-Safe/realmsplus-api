@@ -1,0 +1,43 @@
+{
+  "name": "realmsplus-api",
+  "version": "1.0.0",
+  "description": "Official SDK for the Realms+ API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/All-Realms-Are-Safe/realmsplus-api.git"
+  },
+  "keywords": [
+    "realmsplus",
+    "realms",
+    "minecraft",
+    "bedrock",
+    "api",
+    "sdk"
+  ],
+  "author": "All Realms Are Safe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/All-Realms-Are-Safe/realmsplus-api/issues"
+  },
+  "homepage": "https://github.com/All-Realms-Are-Safe/realmsplus-api#readme"
+}
