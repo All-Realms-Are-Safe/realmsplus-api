@@ -30,9 +30,9 @@ npm install realmsplus-api
 ```javascript
 import { RealmsPlusAPI } from "realmsplus-api";
 
-async function main() {
-    const client = new RealmsPlusAPI("your-api-key");
+const client = new RealmsPlusAPI("your-api-key");
 
+(async () => {
     // Check service health
     const health = await client.getHealth();
     console.log(health);
@@ -40,9 +40,7 @@ async function main() {
     // Query the hacker database
     const result = await client.getHackerDB("all");
     console.log(result);
-};
-
-main();
+})();
 ```
 
 See more [examples](./examples)
