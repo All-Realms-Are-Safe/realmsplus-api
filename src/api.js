@@ -1,7 +1,7 @@
 /**
  * Represents the public routes of the Realms+ API
  */
-export class RealmsPlusAPI {
+class RealmsPlusAPI {
     /**
      * 
      * @param {string} apiKey - your private api key
@@ -77,3 +77,5 @@ export class RealmsPlusAPI {
         return await this.#request("POST", `/database/report/${category}`, data);
     };
 };
+
+module.exports = RealmsPlusAPI;

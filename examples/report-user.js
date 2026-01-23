@@ -1,4 +1,4 @@
-import { RealmsPlusAPI } from "realmsplus-api";
+const { RealmsPlusAPI } = require("realmsplus-api");
 
 const client = new RealmsPlusAPI("your-api-key");
 

@@ -1,21 +1,9 @@
 {
   "name": "realmsplus-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official SDK for the Realms+ API",
   "main": "index.js",
   "types": "index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js"
-    }
-  },
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "src/"
-  ],
   "engines": {
     "node": ">=22.0.0"
   },

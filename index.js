@@ -1,2 +1,5 @@
-import { RealmsPlusAPI } from "./src/api.js";
-export { RealmsPlusAPI };
+const RealmsPlusAPI = require("./src/api");
+
+module.exports = {
+    RealmsPlusAPI
+};
